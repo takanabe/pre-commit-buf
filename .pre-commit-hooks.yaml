@@ -1,0 +1,7 @@
+- id: buf-format
+  name: buf-format
+  description: Runs buf format
+  # https://github.com/pre-commit/identify/blob/a4b613a9643613aef1ec60c79467594109800d21/identify/extensions.py#L154
+  types: [proto]
+  language: script
+  entry: buf-exec.sh format
